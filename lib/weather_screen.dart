@@ -159,7 +159,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                     itemCount: 5,
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
-                      final hourlyForecast = data['list'][index + 1];
+                      final hourlyForecast = data['list'][index + 2];
                       final hourlySky =
                           data['list'][index + 1]['weather'][0]['main'];
                       final hourlyTemp =
